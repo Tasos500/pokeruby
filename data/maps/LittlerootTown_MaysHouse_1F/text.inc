@@ -1,34 +1,34 @@
 LittlerootTown_BrendansHouse_1F_Text_1730C2:: @ 81730C2
 LittlerootTown_MaysHouse_1F_Text_1730C2:: @ 81730C2
-	.string "Oh, hello. And you are?\p"
+	.string "Ω, γεια σου. Ποι{PLAYER_ADJ_2} είσαι;\p"
 	.string "... ... ... ... ... ... ... ... ...\n"
 	.string "... ... ... ... ... ... ... ... ...\p"
-	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
-	.string "neighbor! Hi!\p"
-	.string "We have a {STR_VAR_1} about the same\n"
-	.string "age as you.\p"
-	.string "Our {STR_VAR_1} was excited about making\n"
-	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "Ω, είσαι {PLAYER_ART_LOWER} {PLAYER}{KUN}, {PLAYER_ART_LOWER} νέ{PLAYER_ADJ_2} μας\n"
+	.string "{NEIGHBOR}! Γεια σου!\p"
+	.string "Έχουμε {RIVAL_ONE} {STR_VAR_1} περίπου στην ίδια\n"
+	.string "ηλικία με σένα.\p"
+	.string "{RIVAL_ART} {RIVAL_CHILD} μας έλεγε πως ανυπομονεί\n"
+	.string "να γνωρίσει {PLAYER_ONE} νέ{PLAYER_ADJ_2} φίλ{PLAYER_ACC}.\p"
+	.string "{RIVAL_ART} {RIVAL_CHILD} μας είναι πάνω, νομίζω.$"
 
 LittlerootTown_BrendansHouse_1F_Text_1731C6:: @ 81731C6
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "{RIVAL_ART} {RIVAL_CHILD} μας είναι πάνω, νομίζω.$"
 
 LittlerootTown_BrendansHouse_1F_Text_1731E3:: @ 81731E3
-	.string "Where has my husband gone?\n"
-	.string "Just when {PLAYER}{KUN} is visiting, too...\p"
-	.string "That man can never sit still for long...\n"
-	.string "He might be at his LAB.$"
+	.string "Μα πού πήγε ο σύζυγός μου;\n"
+	.string "Και πάνω που ήρθε {PLAYER_ART_LOWER} {PLAYER}{KUN}, κιόλας...\p"
+	.string "Δεν κάθεται ποτέ στο ίδιο σημείο...\n"
+	.string "Ίσως να είναι στο ΕΡΓΑΣΤΗΡΙΟ.$"
 
 LittlerootTown_BrendansHouse_1F_Text_173262:: @ 8173262
-	.string "Oh, {RIVAL} has gone out somewhere.\p"
-	.string "Like father, like child.\n"
-	.string "{RIVAL} can't stay quietly at home.$"
+	.string "Ω, {RIVAL_ART_LOWER} {RIVAL} έχει φύγει κάπου.\p"
+	.string "Κατά μάνα, κατά κύρη...\n"
+	.string "{RIVAL_ART} {RIVAL} δεν κάθεται φρόνιμα στο σπίτι.$"
 
 LittlerootTown_BrendansHouse_1F_Text_1732B9:: @ 81732B9
-	.string "I think it's wonderful for people to\n"
-	.string "travel with POKéMON.\p"
-	.string "But you should go home every so often\n"
-	.string "to let your mother know you're okay.\p"
-	.string "She might not say it, but I'm sure she\n"
-	.string "worries about you, {PLAYER}{KUN}.$"
+	.string "Πιστεύω είναι υπέροχο ο κόσμος να\n"
+	.string "ταξιδεύει με POKéMON.\p"
+	.string "Αλλά καλό είναι να έρχεσαι σπίτι πού και\n"
+	.string "πού για να μην ανησυχεί η μητέρα σου.\p"
+	.string "Μπορεί να μην μιλάει, αλλά σίγουρα\n"
+	.string "ανησυχεί για σένα, {PLAYER}{KUN}.$"

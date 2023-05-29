@@ -17,16 +17,40 @@ const u8 gExpandedPlaceholder_Kyogre[] = _("KYOGRE");
 const u8 gExpandedPlaceholder_Groudon[] = _("GROUDON");
 const u8 gExpandedPlaceholder_Brendan[] = _("BRENDAN");
 const u8 gExpandedPlaceholder_May[] = _("MAY");
+const u8 gExpandedPlaceholder_Article_Male[] = _("Ο");
+const u8 gExpandedPlaceholder_Article_Male_Lower[] = _("ο");
+const u8 gExpandedPlaceholder_Article_Female[] = _("Η");
+const u8 gExpandedPlaceholder_Article_Female_Lower[] = _("η");
+const u8 gExpandedPlaceholder_Adjective_Male[] = _("ος");
+const u8 gExpandedPlaceholder_Adjective_Female[] = _("η");
+const u8 gExpandedPlaceholder_Adjective_Male_Tonos[] = _("ός");
+const u8 gExpandedPlaceholder_Adjective_Female_Tonos[] = _("ή");
+const u8 gExpandedPlaceholder_Genitive_Male[] = _("ου");
+const u8 gExpandedPlaceholder_Genitive_Female[] = _("ης");
+const u8 gExpandedPlaceholder_Genitive_Male_Cap[] = _("ΟΥ");
+const u8 gExpandedPlaceholder_Genitive_Female_Cap[] = _("ΗΣ");
+const u8 gExpandedPlaceholder_Trainer_Male[] = _("ΕΚΠΑΙΔΕΥΤΗΣ");
+const u8 gExpandedPlaceholder_Trainer_Female[] = _("ΕΚΠΑΙΔΕΥΤΡΙΑ");
+const u8 gExpandedPlaceholder_Rival_Ending_Ni[] = _("ν");
+const u8 gExpandedPlaceholder_Honey_Male[] = _("γλυκέ");
+const u8 gExpandedPlaceholder_Honey_Female[] = _("γλυκιά");
+const u8 gExpandedPlaceholder_Adjective_2_Female[] = _("α");
+const u8 gExpandedPlaceholder_Neighbor_Male[] = _("γείτονας");
+const u8 gExpandedPlaceholder_Neighbor_Female[] = _("γειτόνισσα");
+const u8 gExpandedPlaceholder_One_Male[] = _("έναν");
+const u8 gExpandedPlaceholder_One_Female[] = _("μία");
+const u8 gExpandedPlaceholder_Son[] = _("γιος");
+const u8 gExpandedPlaceholder_Daughter[] = _("κόρη");
 
 // system text
 const u8 gSystemText_Egg[] = _("EGG");
 const u8 gSystemText_Pokemon2[] = _("POKéMON");
 
 // main menu text
-const u8 gMainMenuString_NewGame[] = _("NEW GAME");
-const u8 gMainMenuString_Continue[] = _("CONTINUE");
-const u8 gMainMenuString_Option[] = _("OPTION");
-const u8 gMainMenuString_MysteryEvents[] = _("MYSTERY EVENTS");
+const u8 gMainMenuString_NewGame[] = _("ΝΕΟ ΠΑΙΧΝΙΔΙ");
+const u8 gMainMenuString_Continue[] = _("ΣΥΝΕΧΕΙΑ");
+const u8 gMainMenuString_Option[] = _("ΕΠΙΛΟΓΕΣ");
+const u8 gMainMenuString_MysteryEvents[] = _("ΜΥΣΤΗΡΙΑ ΣΥΜΒΑΝΤΑ");
 
 // system text 2
 const u8 SystemText_UpdatingSaveExternal[] = _("Updating save file using external\ndata. Please wait.");
@@ -45,13 +69,13 @@ const u8 gBatteryDryMessage[] = _("The internal battery has run dry.\nThe game c
 // main menu text 2
 const u8 gMainMenuString_Player[] = _("PLAYER");
 const u8 gMainMenuString_Pokedex[] = _("POKéDEX");
-const u8 gMainMenuString_Time[] = _("TIME");
-const u8 gMainMenuString_Badges[] = _("BADGES");
+const u8 gMainMenuString_Time[] = _("ΧΡΟΝΟΣ");
+const u8 gMainMenuString_Badges[] = _("ΕΜΒΛΗΜΑΤΑ");
 
 // birch text
-const u8 gBirchText_Boy[] = _("BOY");
-const u8 gBirchText_Girl[] = _("GIRL");
-const u8 gBirchText_NewName[] = _("NEW NAME");
+const u8 gBirchText_Boy[] = _("ΑΓΟΡΙ");
+const u8 gBirchText_Girl[] = _("ΚΟΡΙΤΣΙ");
+const u8 gBirchText_NewName[] = _("ΝΕΟ ΟΝΟΜΑ");
 
 #ifdef SAPPHIRE
 const u8 gDefaultBoyName1[] = _("SEAN");
@@ -74,7 +98,7 @@ const u8 gDefaultGirlName4[] = _("SARA");
 const u8 gSystemText_IntroWeCall[] = _("This is what we call\na POKéMON.");
 const u8 gSystemText_NewPara[] = _("\p");
 
-const u8 gDexText_UnknownPoke[] = _("            ????? POKéMON");
+const u8 gDexText_UnknownPoke[] = _("            POKéMON ?????");
 const u8 gDexText_UnknownHeight[] = _("{CLEAR_TO 0x0C}??'??”");
 const u8 gDexText_UnknownWeight[] = _("????.? lbs.$"); // extra terminator?
 const u8 gDexText_CryOf[] = _("{CLEAR_TO 2}CRY OF$"); // extra terminator?
@@ -696,8 +720,8 @@ const u8 gOtherText_Seconds[] = _(" seconds");
 const u8 gOtherText_Times[] = _(" times$.");
 const u8 gOtherText_BigGuy[] = _("Big guy");
 const u8 gOtherText_BigGirl[] = _("Big girl");
-const u8 gOtherText_Son[] = _("son");
-const u8 gOtherText_Daughter[] = _("daughter");
+const u8 gOtherText_Son[] = _("γιο");
+const u8 gOtherText_Daughter[] = _("κόρη");
 const u8 OtherText_BlueFlute[] = _("BLUE FLUTE");
 const u8 OtherText_YellowFlute[] = _("YELLOW FLUTE");
 const u8 OtherText_RedFlute[] = _("RED FLUTE");
@@ -893,7 +917,7 @@ const u8 OtherText_LyingInGreenGrass[] = _("Lying back in the green grass...\nOh
 const u8 OtherText_SecretBasesWonderful[] = _("SECRET BASES are so wonderful!\nCan't you feel the excitement?");
 
 const u8 OtherText_PokeLeague[] = _("POKéMON LEAGUE");
-const u8 OtherText_PokeCenter[] = _("POKéMON CENTER");
+const u8 OtherText_PokeCenter[] = _("ΚΕΝΤΡΟ POKéMON");
 
 const u8 gOtherText_GetsAPokeBlock[] = _(" gets a {POKEBLOCK}?");
 

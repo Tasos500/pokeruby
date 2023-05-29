@@ -739,24 +739,86 @@ u32 BattleStringExpandPlaceholders(const u8* src, u8* dst)
                 else
                     toCpy = gTrainers[gTrainerBattleOpponent].trainerName;
                 break;
+			case B_TXT_TRAINER1_NOMINATIVE: // trainer nominative pronouns
+				if (gTrainers[gTrainerBattleOpponent].encounterMusic_gender & 0x80)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
+			case B_TXT_WANTS:
+				if (gTrainers[gTrainerBattleOpponent].doubleBattle == TRUE)
+					toCpy = BattleText_WantsToBattle_Plural;
+				else
+					toCpy = BattleText_WantsToBattle_Singular;
+				break;
             case B_TXT_LINK_PLAYER_NAME: // link player name?
                 toCpy = gLinkPlayers[multiplayerID].name;
                 break;
+			case B_TXT_LINK_PLAYER_NOMINATIVE: // link player nominative pronouns
+                if (gLinkPlayers[multiplayerID].gender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
             case B_TXT_LINK_PARTNER_NAME: // link partner name?
                 toCpy = gLinkPlayers[sub_803FC34(2 ^ gLinkPlayers[multiplayerID].id)].name;
                 break;
+			case B_TXT_LINK_PARTNER_NOMINATIVE: // link partner nominative pronouns
+                if (gLinkPlayers[sub_803FC34(2 ^ gLinkPlayers[multiplayerID].id)].gender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
             case B_TXT_LINK_OPPONENT1_NAME: // link opponent 1 name?
                 toCpy = gLinkPlayers[sub_803FC34(1 ^ gLinkPlayers[multiplayerID].id)].name;
                 break;
+			case B_TXT_LINK_OPPONENT1_NOMINATIVE: // link opponent 1 nominative pronouns
+                if (gLinkPlayers[sub_803FC34(1 ^ gLinkPlayers[multiplayerID].id)].gender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
             case B_TXT_LINK_OPPONENT2_NAME: // link opponent 2 name?
                 toCpy = gLinkPlayers[sub_803FC34(3 ^ gLinkPlayers[multiplayerID].id)].name;
                 break;
+			case B_TXT_LINK_OPPONENT2_NOMINATIVE: // link opponent 2 nominative pronouns
+                if (gLinkPlayers[sub_803FC34(3 ^ gLinkPlayers[multiplayerID].id)].gender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
             case B_TXT_LINK_SCR_TRAINER_NAME: // link scripting active name
                 toCpy = gLinkPlayers[sub_803FC34(gBattleStruct->scriptingActive)].name;
                 break;
+			case B_TXT_LINK_SCR_TRAINER_NOMINATIVE: // link scripting active nominative pronouns
+                if (gLinkPlayers[sub_803FC34(gBattleStruct->scriptingActive)].gender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
             case B_TXT_PLAYER_NAME: // player name
                 toCpy = gSaveBlock2.playerName;
                 break;
+			case B_TXT_PLAYER_NOMINATIVE: // player nominative pronouns
+                if (gSaveBlock2.playerGender &  0x01)
+					toCpy = BattleText_Nominative_Female;
+				else
+					toCpy = BattleText_Nominative_Male;
+				break;
+			case B_TXT_PLAYER_GENITIVE: // player genitive pronouns
+                if (gSaveBlock2.playerGender &  0x01)
+					toCpy = BattleText_Genitive_Female;
+				else
+					toCpy = BattleText_Genitive_Male;
+				break;
+			case B_TXT_TRAINER1_ACCUSATIVE:
+				if (gTrainers[gTrainerBattleOpponent].encounterMusic_gender & 0x80)
+					toCpy = BattleText_Accusative_Female;
+				else if (gTrainers[gTrainerBattleOpponent].doubleBattle == TRUE)
+					toCpy = BattleText_Accusative_Plural;
+				else
+					toCpy = BattleText_Accusative_Male;
+				break;
             case B_TXT_TRAINER1_LOSE_TEXT: // ?
                 toCpy = GetTrainerLoseText();
                 break;

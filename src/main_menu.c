@@ -978,14 +978,14 @@ static void Task_NewGameSpeech16(u8 taskId)
         Menu_DestroyCursor();
         PlaySE(SE_SELECT);
         gSaveBlock2.playerGender = MALE;
-        Menu_EraseWindowRect(2, 4, 8, 9);
+        Menu_EraseWindowRect(2, 4, 9, 10);
         gTasks[taskId].func = Task_NewGameSpeech19;
         break;
     case FEMALE:
         Menu_DestroyCursor();
         PlaySE(SE_SELECT);
         gSaveBlock2.playerGender = FEMALE;
-        Menu_EraseWindowRect(2, 4, 8, 9);
+        Menu_EraseWindowRect(2, 4, 9, 10);
         gTasks[taskId].func = Task_NewGameSpeech19;
         break;
     }
@@ -1651,11 +1651,11 @@ static void StartBackgroundFadeIn(u8 taskId, u8 interval)
 static void CreateGenderMenu(u8 left, u8 top)
 {
     u8 menuLeft, menuTop;
-    Menu_DrawStdWindowFrame(left, top, left + 6, top + 5);
+    Menu_DrawStdWindowFrame(left, top, left + 7, top + 5);
     menuLeft = left + 1;
     menuTop = top + 1;
     Menu_PrintItems(menuLeft, menuTop, 2, gUnknown_081E79B0);
-    InitMenu(0, menuLeft, menuTop, 2, 0, 5);
+    InitMenu(0, menuLeft, menuTop, 2, 0, 6);
 }
 
 static s8 GenderMenuProcessInput(void)

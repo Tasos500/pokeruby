@@ -473,6 +473,150 @@ static const u8 *ExpandPlaceholder_RivalName(void)
         return gExpandedPlaceholder_Brendan;
 }
 
+static const u8 *ExpandPlaceholder_Player_Article(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Article_Male;
+    else
+        return gExpandedPlaceholder_Article_Female;
+}
+
+static const u8 *ExpandPlaceholder_Player_Article_Lower(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Article_Male_Lower;
+    else
+        return gExpandedPlaceholder_Article_Female_Lower;
+}
+
+static const u8 *ExpandPlaceholder_Rival_Article(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Article_Female;
+    else
+        return gExpandedPlaceholder_Article_Male;
+}
+
+static const u8 *ExpandPlaceholder_Rival_Article_Lower(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Article_Female_Lower;
+    else
+        return gExpandedPlaceholder_Article_Male_Lower;
+}
+
+static const u8 *ExpandPlaceholder_Player_Adjective(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Adjective_Male;
+    else
+        return gExpandedPlaceholder_Adjective_Female;
+}
+
+static const u8 *ExpandPlaceholder_Player_Adjective_2(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Adjective_Male;
+    else
+        return gExpandedPlaceholder_Adjective_2_Female;
+}
+
+static const u8 *ExpandPlaceholder_Player_Adjective_Tonos(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Adjective_Male_Tonos;
+    else
+        return gExpandedPlaceholder_Adjective_Female_Tonos;
+}
+
+static const u8 *ExpandPlaceholder_Player_Genitive(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Genitive_Male;
+    else
+        return gExpandedPlaceholder_Genitive_Female;
+}
+
+static const u8 *ExpandPlaceholder_Player_Genitive_Cap(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Genitive_Male_Cap;
+    else
+        return gExpandedPlaceholder_Genitive_Female_Cap;
+}
+
+static const u8 *ExpandPlaceholder_Rival_Genitive(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Genitive_Female;
+    else
+        return gExpandedPlaceholder_Genitive_Male;
+}
+
+static const u8 *ExpandPlaceholder_Trainer(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Trainer_Male;
+    else
+        return gExpandedPlaceholder_Trainer_Female;
+}
+
+static const u8 *ExpandPlaceholder_Honey(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Honey_Male;
+    else
+        return gExpandedPlaceholder_Honey_Female;
+}
+
+static const u8 *ExpandPlaceholder_Ending_Ni_Rival(void)
+{
+    if (gSaveBlock2.playerGender != MALE)
+        return gExpandedPlaceholder_Rival_Ending_Ni;
+    else
+        return gExpandedPlaceholder_Empty;
+}
+
+static const u8 *ExpandPlaceholder_Neighbor(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Neighbor_Male;
+    else
+        return gExpandedPlaceholder_Neighbor_Female;
+}
+
+static const u8 *ExpandPlaceholder_Player_One(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_One_Male;
+    else
+        return gExpandedPlaceholder_One_Female;
+}
+
+static const u8 *ExpandPlaceholder_Rival_One(void)
+{
+    if (gSaveBlock2.playerGender != MALE)
+        return gExpandedPlaceholder_One_Male;
+    else
+        return gExpandedPlaceholder_One_Female;
+}
+
+static const u8 *ExpandPlaceholder_Rival_Child(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Daughter;
+    else
+        return gExpandedPlaceholder_Son;
+}
+
+static const u8 *ExpandPlaceholder_Player_Accusative(void)
+{
+    if (gSaveBlock2.playerGender == MALE)
+        return gExpandedPlaceholder_Article_Male_Lower;
+    else
+        return gExpandedPlaceholder_Article_Female_Lower;
+}
+
 #define VERSION_DEPENDENT_PLACEHOLDER_LIST \
     X(Version,       Ruby,    Sapphire)    \
     X(EvilTeam,      Magma,   Aqua)        \
@@ -514,6 +658,24 @@ const u8 *GetExpandedPlaceholder(u32 id)
         ExpandPlaceholder_GoodLeader,
         ExpandPlaceholder_EvilLegendary,
         ExpandPlaceholder_GoodLegendary,
+		ExpandPlaceholder_Player_Article,
+		ExpandPlaceholder_Player_Article_Lower,
+		ExpandPlaceholder_Rival_Article,
+		ExpandPlaceholder_Rival_Article_Lower,
+		ExpandPlaceholder_Player_Adjective,
+		ExpandPlaceholder_Player_Adjective_Tonos,
+		ExpandPlaceholder_Player_Genitive,
+		ExpandPlaceholder_Player_Genitive_Cap,
+		ExpandPlaceholder_Rival_Genitive,
+		ExpandPlaceholder_Trainer,
+		ExpandPlaceholder_Ending_Ni_Rival,
+		ExpandPlaceholder_Honey,
+		ExpandPlaceholder_Player_Adjective_2,
+		ExpandPlaceholder_Neighbor,
+		ExpandPlaceholder_Rival_One,
+		ExpandPlaceholder_Rival_Child,
+		ExpandPlaceholder_Player_One,
+		ExpandPlaceholder_Player_Accusative
     };
 
     if (id >= ARRAY_COUNT(funcs))
