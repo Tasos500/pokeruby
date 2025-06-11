@@ -1,8 +1,8 @@
-LittlerootTown_BrendansHouse_1F_Text_172429:: @ 8172429
+PlayersHouse_1F_Text_IsntItNiceInHere:: @ 8172429
 	.string "ΜΑΜΑ: Βλέπεις, {PLAYER};\n"
 	.string "Δεν είναι κι εδώ ωραία;$"
 
-LittlerootTown_BrendansHouse_1F_Text_172453:: @ 8172453
+PlayersHouse_1F_Text_MoversPokemonGoSetClock:: @ 8172453
 	.string "Τα POKéMON της μεταφορικής κάνουν\n"
 	.string "όλη τη δουλειά, και μετά καθαρίζουν.\l"
 	.string "Είναι τόσο βολικό!\p"
@@ -12,75 +12,71 @@ LittlerootTown_BrendansHouse_1F_Text_172453:: @ 8172453
 	.string "σαν ενθύμιο της μετακόμισής μας.\l"
 	.string "Μην ξεχάσεις να το ρυθμίσεις!$"
 
-LittlerootTown_BrendansHouse_1F_Text_172531:: @ 8172531
+PlayersHouse_1F_Text_ArentYouInterestedInRoom:: @ 8172531
 	.string "ΜΑΜΑ: Λοιπόν, {PLAYER};\p"
 	.string "Δεν σε ενδιαφέρει να δεις\n"
 	.string "το δωμάτιό σου;$"
 
-LittlerootTown_BrendansHouse_1F_Text_172574:: @ 8172574
-LittlerootTown_MaysHouse_1F_Text_172574:: @ 8172574
+PlayersHouse_1F_Text_GoSetTheClock:: @ 8172574
 	.string "ΜΑΜΑ: {PLAYER}.\p"
 	.string "Πήγαινε ρύθμισε το ρολόι\n"
 	.string "στο δωμάτιό σου, {HONEY} μου.$"
 
-LittlerootTown_BrendansHouse_1F_Text_1725A3:: @ 81725A3
+PlayersHouse_1F_Text_OhComeQuickly:: @ 81725A3
 	.string "ΜΑΜΑ: Ω! {PLAYER}, {PLAYER}!\n"
 	.string "Βιάσου! Έλα γρήγορα!$"
 
-LittlerootTown_BrendansHouse_1F_Text_1725C9:: @ 81725C9
-LittlerootTown_MaysHouse_1F_Text_1725C9:: @ 81725C9
+PlayersHouse_1F_Text_MaybeDadWillBeOn:: @ 81725C9
 	.string "ΜΑΜΑ: Κοίτα! Είναι το ΓΥΜΝΑΣΤΗΡΙΟ\n"
 	.string "PETALBURG! Ίσως δείξουν τον ΜΠΑΜΠΑ!$"
 
-LittlerootTown_BrendansHouse_1F_Text_1725FE:: @ 81725FE
-LittlerootTown_MaysHouse_1F_Text_1725FE:: @ 81725FE
+PlayersHouse_1F_Text_ItsOverWeMissedHim:: @ 81725FE
 	.string "ΜΑΜΑ: Ω... Τελείωσε.\p"
 	.string "Νομίζω έδειξαν τον μπαμπά, αλλά τον\n"
 	.string "χάσαμε. Κρίμα.$"
 
-LittlerootTown_BrendansHouse_1F_Text_172644:: @ 8172644
-LittlerootTown_MaysHouse_1F_Text_172644:: @ 8172644
+PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:: @ 8172644
 	.string "Ω, ναι.\n"
 	.string "Ένας φίλος του ΜΠΑΜΠΑ μένει στην πόλη.\p"
 	.string "Τον λένε ΚΑΘ. BIRCH.\p"
 	.string "Μένει ακριβώς δίπλα, οπότε πήγαινε\n"
 	.string "μέχρι εκεί και συστήσου.$"
 
-LittlerootTown_BrendansHouse_1F_Text_1726D2:: @ 81726D2
+PlayersHouse_1F_Text_SeeYouHoney:: @ 81726D2
 	.string "ΜΑΜΑ: Τα λέμε, {HONEY} μου!$"
 
-LittlerootTown_BrendansHouse_1F_Text_1726E7:: @ 81726E7
+PlayersHouse_1F_Text_DidYouMeetProfBirch:: @ 81726E7
 	.string "ΜΑΜΑ: Πήγες να συστηθείς στον\n"
 	.string "ΚΑΘ. BIRCH;$"
 
-LittlerootTown_BrendansHouse_1F_Text_172717:: @ 8172717
+PlayersHouse_1F_Text_YouShouldRestABit:: @ 8172717
 	.string "ΜΑΜΑ: Πώς είσαι, {PLAYER};\n"
 	.string "Φαίνεσαι λίγο κουρασμέν{PLAYER_ADJ}.\p"
 	.string "Καλύτερα να ξεκουραστείς λιγάκι.$"
 
-LittlerootTown_BrendansHouse_1F_Text_17276B:: @ 817276B
+PlayersHouse_1F_Text_TakeCareHoney:: @ 817276B
 	.string "ΜΑΜΑ: Να προσέχεις, {HONEY} μου!$"
 
-LittlerootTown_BrendansHouse_1F_Text_172782:: @ 8172782
+PlayersHouse_1F_Text_GotDadsBadgeHeresSomethingFromMom:: @ 8172782
 	.string "ΜΑΜΑ: Ω; Ο ΜΠΑΜΠΑΣ σου έδωσε αυτό το ΕΜΒΛΗΜΑ;\p"
 	.string "Τότε ορίστε και κάτι από τη ΜΑΜΑ σου!$"
 
-LittlerootTown_BrendansHouse_1F_Text_1727CD:: @ 81727CD
+PlayersHouse_1F_Text_DontPushYourselfTooHard:: @ 81727CD
 	.string "Μην πιέζεις τον εαυτό σου υπερβολικά,\n"
 	.string "αγάπη μου. Μπορείς πάντα να έρχεσαι σπίτι.\p"
 	.string "Βάλε τα δυνατά σου, {HONEY} μου!$"
 
-LittlerootTown_BrendansHouse_1F_Text_17281D:: @ 817281D
+PlayersHouse_1F_Text_Machoke1:: @ 817281D
 	.string "Γκιάο, γκιάο, γκιάο...$"
 
-LittlerootTown_BrendansHouse_1F_Text_172831:: @ 8172831
+PlayersHouse_1F_Text_Machoke2:: @ 8172831
 	.string "Γκουαγκουά γκουά...$"
 
-LittlerootTown_BrendansHouse_1F_Text_172841:: @ 8172841
+PlayersHouse_1F_Text_ReportFromPetalburgGym:: @ 8172841
 	.string "ΔΗΜΟΣΙΟΓΡΑΦΟΣ: ...Σας φέραμε αυτό το\n"
 	.string "ρεπορτάζ από το ΓΥΜΝ. PETALBURG.$"
 
-UnknownString_817288C: @ 817288C
+PlayersHouse_1F_Text_TheresAMovieOnTV: @ 817288C
 	.string "Παίζει μια ταινία στην τηλεόραση.\p"
 	.string "Δύο άντρες χορεύουν πάνω σε ένα\n"
 	.string "τεράστιο πιάνο.\p"
@@ -94,7 +90,7 @@ UnknownString_81728E3: @ 81728E3
 	.string "“Δέσε τα ΑΘΛΗΤΙΚΑ ΠΑΠΟΥΤΣΙΑ και\n"
 	.string "πάρε το δρόμο τρέχοντας!”$"
 
-LittlerootTown_BrendansHouse_1F_Text_17298B:: @ 817298B
+PlayersHouse_1F_Text_TicketFromBrineyCameForYou:: @ 817298B
 	.string "ΜΠΑΜΠΑΣ: Χμ;\p"
 	.string "Ω, είναι {PLAYER_ART_LOWER} {PLAYER}!\p"
 	.string "Έχω πολύ καιρό να σε δω, αλλά μου\n"
@@ -105,7 +101,7 @@ LittlerootTown_BrendansHouse_1F_Text_17298B:: @ 817298B
 	.string "Αυτό ήρθε από κάποιον που λέγεται\l"
 	.string "ΚΟΣ. BRINEY.$"
 
-LittlerootTown_BrendansHouse_1F_Text_172A7D:: @ 8172A7D
+PlayersHouse_1F_Text_PortsInSlateportLilycove:: @ 8172A7D
 	.string "ΜΠΑΜΠΑΣ: Χμ, ένα ΕΙΣΙΤΗΡΙΟ για φέρι μποτ;\p"
 	.string "Αν θυμάμαι σωστά, υπάρχει λιμάνι\n"
 	.string "στη SLATEPORT και στη LILYCOVE."
@@ -114,13 +110,13 @@ LittlerootTown_BrendansHouse_1F_Text_172A7D:: @ 8172A7D
 	.string "Θα σου μάθει πως δεν υπάρχει τέλος\n"
 	.string "στο δρόμο που διαλέγει ένας ΕΚΠΑΙΔΕΥΤΗΣ.$"
 
-LittlerootTown_BrendansHouse_1F_Text_172B5E:: @ 8172B5E
+PlayersHouse_1F_Text_BetterGetBackToGym:: @ 8172B5E
 	.string "Καλύτερα να πηγαίνω πίσω στο\n"
     .string	"ΓΥΜΝΑΣΤΗΡΙΟ PETALBURG.\p"
 	.string "ΜΑΜΑ, σ' ευχαριστώ που προσέχεις\n"
 	.string "το σπίτι όσο λείπω.$"
 
-LittlerootTown_BrendansHouse_1F_Text_172BBC:: @ 8172BBC
+PlayersHouse_1F_Text_DadShouldStayLonger:: @ 8172BBC
 	.string "ΜΑΜΑ: Αυτός ο ΜΠΑΜΠΑΣ σου...\p"
 	.string "Έρχεται σπίτι για πρώτη φορά εδώ και\n"
 	.string "καιρό, και μόνο για POKéMON μιλάει.\p"

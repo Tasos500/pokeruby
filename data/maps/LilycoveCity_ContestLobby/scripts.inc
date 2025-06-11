@@ -22,7 +22,7 @@ LilycoveCity_ContestLobby_EventScript_158898:: @ 8158898
 	addobject 4
 	applymovement 4, LilycoveCity_ContestLobby_Movement_158A3B
 	waitmovement 4
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_158A4C
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_158A4C
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_18890F, MSGBOX_DEFAULT
 	lockall
@@ -96,23 +96,23 @@ LilycoveCity_ContestLobby_EventScript_158994:: @ 8158994
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589D6:: @ 81589D6
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PAINTING_LADY
+	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589DA:: @ 81589DA
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PAINTING_GIRL
+	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589DE:: @ 81589DE
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PAINTING_MAN
+	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589E2:: @ 81589E2
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PAINTER
+	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589E6:: @ 81589E6
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_VISITORS
+	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS
 	return
 
 LilycoveCity_ContestLobby_EventScript_1589EA:: @ 81589EA
@@ -196,7 +196,7 @@ LilycoveCity_ContestLobby_EventScript_158A6A:: @ 8158A6A
 	addobject 11
 	applymovement 11, LilycoveCity_ContestLobby_Movement_158B64
 	waitmovement 11
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_158B76
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_158B76
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_18890F, MSGBOX_DEFAULT
 	lockall
@@ -505,14 +505,14 @@ LilycoveCity_ContestLobby_EventScript_158E0B:: @ 8158E0B
 	delay 20
 	applymovement 2, LilycoveCity_ContestLobby_Movement_158EAE
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_158E99
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_158E99
 	waitmovement 0
 	messageautoscroll LilycoveCity_ContestLobby_Text_1A6832
 	waitmessage
 	delay 20
 	closemessage
 	applymovement 2, LilycoveCity_ContestLobby_Movement_158EA4
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_158E8E
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_158E8E
 	waitmovement 0
 	releaseall
 	return
@@ -644,12 +644,12 @@ LilycoveCity_ContestLobby_EventScript_158F86:: @ 8158F86
 	delay 20
 	applymovement 1, LilycoveCity_ContestLobby_Movement_15901C
 	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_159008
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_159008
 	waitmovement 0
 	msgbox LilycoveCity_ContestLobby_Text_1A6832, MSGBOX_DEFAULT
 	closemessage
 	applymovement 1, LilycoveCity_ContestLobby_Movement_159013
-	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_158FFE
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_158FFE
 	waitmovement 0
 	releaseall
 	return
@@ -749,7 +749,7 @@ LilycoveCity_ContestLobby_EventScript_159074:: @ 8159074
 	end
 
 LilycoveCity_ContestLobby_EventScript_15907B:: @ 815907B
-	msgbox LilycoveCity_ContestLobby_Text_1B7225, MSGBOX_NPC
+	msgbox SlateportCity_ContestLobby_Text_LetsGetBlendingAlready, MSGBOX_NPC
 	end
 
 LilycoveCity_ContestLobby_EventScript_159084:: @ 8159084

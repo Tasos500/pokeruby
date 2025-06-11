@@ -1,8 +1,8 @@
-LittlerootTown_BrendansHouse_2F_Text_17337E:: @ 817337E
+RivalsHouse_2F_Text_MayGettingReady:: @ 817337E
 	.string "Το POKéMON θεραπευμένο!\n"
 	.string "Τα πράγματα έτοιμα, και... Ε;$"
 
-LittlerootTown_BrendansHouse_2F_Text_1733AF:: @ 81733AF
+RivalsHouse_2F_Text_MayWhoAreYou:: @ 81733AF
 	.string "Ε;\n"
 	.string "Π... Ποιος είσαι;\p"
 	.string "... ... ... ... ... ... ... ...\n"
@@ -26,11 +26,11 @@ LittlerootTown_BrendansHouse_2F_Text_1733AF:: @ 81733AF
 	.string "πιάσει μερικά άγρια POKéMON!\p"
 	.string "{PLAYER}{KUN}, τα λέμε αργότερα!$"
 
-LittlerootTown_BrendansHouse_2F_Text_1735C9:: @ 81735C9
+RivalsHouse_2F_Text_BrendanGettingReady:: @ 81735C9
 	.string "Το POKéMON θεραπευμένο!\n"
 	.string "Τα πράγματα έτοιμα, και... Ε;$"
 
-LittlerootTown_BrendansHouse_2F_Text_1735FC:: @ 81735FC
+RivalsHouse_2F_Text_BrendanWhoAreYou:: @ 81735FC
 	.string "Ε!\n"
 	.string "Εσύ...\p"
 	.string "Ποια είσαι;\p"
@@ -50,7 +50,7 @@ LittlerootTown_BrendansHouse_2F_Text_1735FC:: @ 81735FC
 	.string "πιάσει μερικά άγρια POKéMON.\p"
 	.string "Μιλάμε άλλη ώρα, εντάξει;$"
 
-LittlerootTown_BrendansHouse_2F_Text_1737AE:: @ 81737AE
+RivalsHouse_2F_Text_MayJustCheckingMyPokedex:: @ 81737AE
 	.string "MAY: {PLAYER}{KUN}!\p"
 	.string "Κοιτούσα τώρα στην POKéDEX μου.\p"
 	.string "Υπάρχουν ακόμα πολλά POKéMON που\n"
@@ -60,13 +60,13 @@ LittlerootTown_BrendansHouse_2F_Text_1737AE:: @ 81737AE
 	.string "Αναρωτιέμαι πού να πάω να\n"
 	.string "πιάσω POKéMON μετά...$"
 
-LittlerootTown_BrendansHouse_2F_Text_173883:: @ 8173883
+RivalsHouse_2F_Text_MayWhereShouldIGoNext:: @ 8173883
 	.string "Αναρωτιέμαι πού να πάω να\n"
 	.string "πιάσω POKéMON μετά...\p"
 	.string "Δεν θα είχε πλάκα να πέφταμε\n"
 	.string "ο ένας στον άλλο, {PLAYER}{KUN};$"
 
-LittlerootTown_BrendansHouse_2F_Text_1738F2:: @ 81738F2
+RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:: @ 81738F2
 	.string "BRENDAN: Α, έλα, {PLAYER}.\p"
 	.string "Κοιτούσα τώρα στην POKéDEX μου.\p"
 	.string "Υπάρχουν ακόμα πολλά POKéMON που\n"
@@ -75,7 +75,7 @@ LittlerootTown_BrendansHouse_2F_Text_1738F2:: @ 81738F2
 	.string "Μόνο που βλέπω την POKéDEX μου δίνει\n"
 	.string "όρεξη να βγω πάλι στο δρόμο.$"
 
-LittlerootTown_BrendansHouse_2F_Text_1739CC:: @ 81739CC
+RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:: @ 81739CC
 	.string "BRENDAN: Δυσκολεύομαι να αποφασίσω\n"
 	.string "πού να πάω να πιάσω POKéMON μετά.\p"
 	.string "Α, {PLAYER}, αν σε πετύχω όσο θα\n"
